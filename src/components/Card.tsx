@@ -5,7 +5,7 @@ const Card: FC<FormData> = ({name, lastName}) => {
         <div>
             <h2>Result</h2>
             <p>Name: {name}</p>
-            <p>Age: {lastName}</p>
+            <p>LastName: {lastName}</p>
         </div>
     );
 }
