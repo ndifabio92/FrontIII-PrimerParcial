@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div>
             <Form onSubmit={setData}/>
-            { data && <Card name={data.name} age={data.age}/>}
+            { data && <Card name={data.name} lastName={data.lastName}/>}
         </div>
     )
 }
